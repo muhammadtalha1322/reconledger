@@ -22,8 +22,8 @@ BOLD='\033[1m'; NC='\033[0m'
 banner() {
   echo -e "${CYAN}${BOLD}"
   echo "  ╔══════════════════════════════════════════════════════════════╗"
-  echo "  ║         R E C O N L E D G E R  v1                          ║"
-  echo "  ║   Ordered Recon Pipeline  |  WordPress  |  Parallel         ║"
+  echo "  ║         R E C O N L E D G E R  v2                            ║"
+  echo "  ║   Ordered Recon Pipeline  |  WordPress  |  Parallel          ║"
   echo "  ╚══════════════════════════════════════════════════════════════╝"
   echo -e "${NC}"
 }
