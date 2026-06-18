@@ -1,0 +1,14 @@
+# ReconLedger v1 — Python Report Generator Dependencies
+#
+# The report generator (reconledger_report.py) uses the Python standard
+# library only. No third-party packages are required to run it.
+#
+# The bash scanner (reconledger.sh) installs all external tools via apt/nala
+# automatically on first run.
+#
+# If you intend to extend the report generator with optional features such
+# as PDF generation via a Python library (rather than the built-in
+# browser print-to-PDF), you may optionally install the following:
+
+# Optional — only if you want server-side PDF generation (not required)
+# weasyprint>=60.0
